@@ -1,0 +1,35 @@
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.pagination-container > button {
+  margin: 10px;
+  padding: 5px 10px;
+  background-color: antiquewhite;
+  border: none;
+  border-radius: 4px;
+}
+
+.pagination-numbers > button {
+  margin: 2px;
+  padding: 5px 10px;
+  background-color: antiquewhite;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pagination-container > button:active {
+  background-color: rgb(255, 161, 19);
+}
+
+.pagination-numbers > button:active {
+  background-color: rgb(255, 161, 19);
+}
+.pagination-numbers > button:focus {
+  background-color: rgb(255, 161, 19);
+}
